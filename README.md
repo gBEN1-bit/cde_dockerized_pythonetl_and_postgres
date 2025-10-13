@@ -25,4 +25,13 @@ It also creates a separate container for the Postgres and ETL pipeline respectiv
 1. Clone the repo:
 - git clone [this repo](https://github.com/gBEN1-bit/cde_dockerized_pythonetl_and_postgres.git)
 - cd cde_dockerized_pythonetl_and_postgres
+- Configure Environment Variables
+Assign values to the variables in the variables_to_export.sh file:
+```bash
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=
+DOCKERHUB_USERNAME=
+```
 - on your terminal run: source build_and_run.sh
