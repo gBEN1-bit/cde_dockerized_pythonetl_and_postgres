@@ -11,6 +11,11 @@ This project creates a virtual python environment (to avoid clashes with the ver
 
 It also creates a separate container for the Postgres and ETL pipeline respectively and uses a network to enable communication between both in docker.
 
+## ETL Pipeline Architecture
+![ETL Pipeline Architecture](ETL_Architecture.png)
+
+---
+
 ## Prerequisite
 - Have Docker Desktop Running
 - Have a strong network connection to be able to pull the Postres Image.
